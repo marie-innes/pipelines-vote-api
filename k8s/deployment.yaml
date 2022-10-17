@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: pipelines-vote-api
+    stage: dev
   name: pipelines-vote-api
 spec:
   replicas: 1
